@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Contact-book</a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- CONTACT PANEL -->
+    <!-- Name, Surname, Number, Email, Photo, -->
+    <div class="admin mt-5 d-flex flex-column w-1000 align-items-center">
+      <h2>CONTACT BOOK</h2>
+      <input
+        type="text"
+        class="w-50 mb-2 form-control"
+        placeholder="Name"
+        id="name"
+      />
+
+      <input
+        type="text"
+        class="w-50 mb-2 form-control"
+        placeholder="Surname"
+        id="surname"
+      />
+      <input
+        type="text"
+        class="w-50 mb-2 form-control"
+        placeholder="Number"
+        id="number"
+      />
+      <input
+        type="text"
+        class="w-50 mb-2 form-control"
+        placeholder="Email"
+        id="email"
+      />
+      <input
+        type="text"
+        class="w-50 mb-2 form-control"
+        placeholder="image URL"
+        id="image"
+      />
+      <button class="btn btn-dark w-50" id="btn-add">Add contact</button>
+   
+    <!-- <div class="main-modal">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer">X</button>
+        </div>
+        <input type="text" class="inp-name" />
+        <input type="text" class="inp-surname" />
+        <input type="text" class="inp-email" />
+        <input type="text" class="inp-img" />
+        <input type="text" class="inp-phone" />
+        <button class="btn-save">save changes</button>
+      </div>
+    </div> -->
+
+    <ul class="list"></ul>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
